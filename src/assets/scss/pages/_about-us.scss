@@ -1,0 +1,44 @@
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    @media screen and (min-width:768px){
+        margin-top: 169.77px;
+    margin-bottom: 169.77px;
+    }
+}
+
+.aboutUs {
+    &__header {
+        color: $secondaryColor;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 134.1%;
+        margin: 0;
+    }
+
+    &--span {
+        color: $primaryColor;
+    }
+
+    &__p {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 142.2%;
+        color: #1F1F1F;
+        margin: 0;
+        padding-top: 42px;
+    }
+
+    &__button {
+        text-decoration: none;
+        margin-top: 42px;
+    }
+    &__image{
+        width: 100%;
+    }
+
+}
