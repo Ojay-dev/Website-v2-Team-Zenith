@@ -1,0 +1,21 @@
+.contact{
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    font-family: "Rubik", sans-serif;;
+    >h2{
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        color: $white;
+        line-height: 1px;
+    }
+    >p{
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        text-align:center;
+        color: $white;   
+        line-height: 18.96px;     
+    }
+}
